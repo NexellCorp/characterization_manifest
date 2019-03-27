@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>                                          
-<manifest>                                                                      
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
     <include name="remote_nexell_ssh.xml" />
 
+    <remote name="crosstool"
+	    fetch="https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/" />
     <project path="kernel-4.4" name="linux_kernel-4.4.x" groups="nexell" remote="nexell" revision="nxp4330-slt" />
     <project path="u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nxp4330-slt" />
+    <project path="2ndboot/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell_slt" />
+    <project path="2ndboot/bl2-s5p4418" name="bl2_s5p4418" groups="bl1" remote="nexell" revision="nexell_slt" />
+    <project path="2ndboot/armv7-dispatcher" name="secure_armv7-dispatcher" groups="bl1" remote="nexell" revision="nexell" />
     <project path="characterization" name="characterization_nxp4330" groups="nexell" remote="nexell" revision="master" />
     <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2018.05-nxp4330-slt" />
 </manifest>
