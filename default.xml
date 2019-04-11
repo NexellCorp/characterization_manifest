@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>                                          
-<manifest>                                                                      
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
     <include name="remote_nexell_ssh.xml" />
 
-    <project path="kernel-4.4" name="linux_kernel-4.4.x" groups="nexell" remote="nexell" revision="nxp4330-slt" />
-    <project path="u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nxp4330-slt" />
-    <project path="characterization" name="characterization_nxp4330" groups="nexell" remote="nexell" revision="master" />
+    <project path="kernel-3.4" name="linux_kernel-3.4.39" groups="nexell" remote="nexell" revision="nxp4330-slt" />
+    <project path="u-boot-2014.07" name="u-boot-2014.07" groups="u-boot" remote="nexell" revision="nxp4330-slt" />
+    <project path="2ndboot" name="linux_2ndboot-s5p4418" groups="u-boot" remote="nexell" revision="nxp4330-slt" />
+    <project path="prototype" name="linux_prototype-pyrope" groups="u-boot" remote="nexell" revision="lollipop-5.1.1_r6-release_3rd" />
+    <project path="characterization" name="characterization_nxp4330" groups="nexell" remote="nexell" revision="nxp4330-slt-3.4" />
     <project path="buildroot" name="buildroot" groups="nxp3220" remote="nexell" revision="2018.05-nxp4330-slt" />
+
 </manifest>
