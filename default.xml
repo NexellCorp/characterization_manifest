@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin"
-            fetch="../../"/>
+    <include name="remote_nexell_ssh.xml" />
 
-    <project path="kernel-4.14" name="nexell/linux/kernel/linux-stable" groups="nxp3220" remote="origin" revision="linux-4.14-nxp3220-asv" />
-    <project path="u-boot-2018.5" name="nexell/linux/u-boot/u-boot-2017.05" groups="nxp3220" remote="origin" revision="2018.05-nxp3220" />
-    <project path="characterization" name="characterization/nxp3220" groups="nxp3220" remote="origin" revision="master" />
-    <project path="buildroot" name="nexell/buildroot/buildroot" groups="nxp3220" remote="origin" revision="2018.05-nexell-asv" />
+    <project path="kernel-4.14" name="linux_kernel-4.14.x" groups="nxp3220" remote="nexell" revision="linux-4.14-nxp3220-asv" />
+    <project path="u-boot-2018.5" name="u-boot-2017.05" groups="nexell" remote="nexell" revision="2018.05-nxp3220" />
+    <project path="characterization" name="characterization_nxp3220" groups="nexell" remote="nexell" revision="master" />
+    <project path="buildroot" name="buildroot" groups="nexell" remote="nexell" revision="2018.05-nexell-asv" />
 </manifest>
