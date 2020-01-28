@@ -5,8 +5,8 @@
     <project path="firmwares/bl1-nxp3220" name="bl1_nxp3220" groups="bl1" remote="nexell" revision="nxp3220-asv" />
     <project path="firmwares/bl2-nxp3220" name="bl2_nxp3220" groups="bl1" remote="nexell" revision="nxp3220-asv" />
     <project path="firmwares/bl32-nxp3220" name="bl32_nxp3220" groups="bl1" remote="nexell" revision="master" />
-    <project path="kernel-4.14" name="linux_kernel-4.14.x" groups="nxp3220" remote="nexell" revision="linux-4.14-nxp3220-asv" />
+    <project path="kernel-4.14" name="linux_kernel-4.14.x" groups="nxp3220" remote="nexell" revision="linux-4.14-nxp3220-asv-core" />
     <project path="u-boot-2018.5" name="u-boot-2017.05" groups="nexell" remote="nexell" revision="2018.05-nxp3220" />
-    <project path="characterization" name="characterization_nxp3220" groups="nexell" remote="nexell" revision="master" />
+    <project path="characterization" name="characterization_nxp3220" groups="nexell" remote="nexell" revision="nxp3220-asv-core" />
     <project path="buildroot" name="buildroot" groups="nexell" remote="nexell" revision="2018.05-nexell-asv" />
 </manifest>
